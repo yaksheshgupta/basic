@@ -1,0 +1,8 @@
+to call--- ./adb shell am start -a android.intent.action.CALL -d tel:+918009993888
+to end call--- ./adb shell input keyevent 6
+to serch--- ./adb shell input keyevent 66
+open menu bar--- ./adb shell input keyevent 82
+open snap app -- ./adb shell am start -n com.snapchat.android/com.snap.mushroom.MainActivity
+list of app-- ./adb shell pm list packages -3
+press camra-- ./adb shell input keyevent CAMERA
+Pick up call-- ./adb shell input keyevent KEYCODE_CALL
